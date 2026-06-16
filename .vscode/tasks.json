@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Apexium Backend",
+      "type": "shell",
+      "command": "${workspaceFolder}/run_backend.bat",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "apexium-app",
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Start Apexium Frontend",
+      "type": "shell",
+      "command": "${workspaceFolder}/run_frontend.bat",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "apexium-app",
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Start Fullstack App",
+      "dependsOn": [
+        "Start Apexium Backend",
+        "Start Apexium Frontend"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
