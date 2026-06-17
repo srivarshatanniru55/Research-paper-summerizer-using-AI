@@ -77,7 +77,7 @@ Research-Paper-Summarizer/
 
 ```bash
 git clone https:https://github.com/srivarshatanniru55/Research-paper-summerizer-using-AI
-cd research-paper-summarizer
+cd research-paper-summarizer using AI
 ```
 
 ### 2. Backend Setup
