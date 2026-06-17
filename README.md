@@ -76,7 +76,7 @@ Research-Paper-Summarizer/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/research-paper-summarizer.git
+git clone https:https://github.com/srivarshatanniru55/Research-paper-summerizer-using-AI
 cd research-paper-summarizer
 ```
 
