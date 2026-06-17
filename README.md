@@ -25,7 +25,7 @@ The application extracts text from uploaded research papers, analyzes the conten
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -128,7 +128,7 @@ http://localhost:5173
 7. NLP metrics are calculated.
 8. Gemini AI generates a summary.
 9. Results are displayed on the frontend.
-10.Users can ask questions about the paper using the chat feature.
+10. Users can ask questions about the paper using the chat feature.
 
 ---
 
